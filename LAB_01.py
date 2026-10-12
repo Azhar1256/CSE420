@@ -33,7 +33,7 @@ for ch in lines.split():
     elif (ch == '+' or ch == '-' or ch == '=' or ch == '*' or ch == '/' or ch == '%'):
         if ch not in math:
             math.append(ch)
-    elif (ch == '>' or ch == '<' or ch == '&&' or ch == '||*' or ch == '!' or ch == '%'):
+    elif (ch == '>' or ch == '<' or ch == '&&' or ch == '||' or ch == '!' or ch == '%'):
         if ch not in logic:
             logic.append(ch)
     elif ch in keywords:
